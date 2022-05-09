@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paqueteuno;
+package paquete01;
 
 /**
  *
  * @author reroes
  */
-public class Ejecutor {
+public class Ejecutor2 {
 
     public static void main(String[] args) {
         // se crea un de tipo UnidadDVD
@@ -24,6 +24,8 @@ public class Ejecutor {
                 + "Unidad de DVD: %s\n",
                 computadora.obtenerTipoProcesador(),
                 computadora.obtenerUnidadDvd().obtenerMarca());
+    
+        
     }
 
 }
